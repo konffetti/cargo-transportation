@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<title>FIGMA | Макеты для верстки — Верстка страницы</title>
 	<meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
+	<link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
 		<!-- Начало: Данный блок удалять нельзя -->
@@ -76,7 +77,231 @@
 		<!-- Конец -->
 
 		<div class="main">
-			В данном блоке размещается верстка
+
+      <header class="header">
+
+        <div class="contacts">
+          <div class="container">
+            <div class="contacts-wrapper">
+              <ul class="contacts__list">
+                <li class="contacts__item">
+                  <a class="contacts__link contacts__link-active" href="#">РУС</a>
+                </li>
+                <li class="contacts__item">
+                  <a class="contacts__link" href="#!">ENG</a>
+                </li>
+                <li class="contacts__item">
+                  <a class="contacts__link" href="#!">FR</a>
+                </li>
+              </ul>
+              <a class="contacts__phone" href="tel:88001234567">8 (800) 123-45-67</a>
+              <a class="contacts__email" href="mailto:sales@log.ru">sales@log.ru</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu">
+          <div class="container">
+            <div class="menu-wrapper">
+              <a class="logo-link" href="#!">
+                <img class="header__logo-image" src="./images/logo.svg" alt="Логотип компании" width="160" height="46">
+              </a>
+              <a class="office-link" href="#">Наши офисы</a>
+
+              <nav class="navigation">
+                <ul class="navigation__list">
+                  <li class="navigation__item">
+                    <a class="navigation__link" href="#!">
+                      услуги
+                    </a>
+                  </li>
+                  <li class="navigation__item">
+                    <a class="navigation__link" href="#!">
+                      О компании
+                    </a>
+                  </li>
+                  <li class="navigation__item">
+                    <a class="navigation__link" href="#!">
+                      вакансии
+                    </a>
+                  </li>
+                  <li class="navigation__item">
+                    <a class="navigation__link" href="#!">
+                      контакты
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+
+            </div>
+          </div>
+        </div>
+
+      </header>
+
+      <section class="hero">
+        <div class="container">
+          <div class="hero__content">
+            <h1 class="hero__title">
+              Грузовые перевозки
+            </h1>
+            <p class="hero__text">
+              Перевозка крупногабаритных грузов по России и Европе. Полное экспедирование, страхование, упаковка и хранение грузов
+            </p>
+          </div>
+          <button class="mouse-button" type="button">
+            <span class="visually-hidden">Мышка</span>
+          </button>
+        </div>
+      </section>
+
+      <section class="slider">
+        <div class="container">
+          <div class="slider__wrapper">
+            <div class="slider__content">
+              <h2 class="section__title slider__title">
+                грузоперевозки по европе
+              </h2>
+              <p class="section__text slider__text">
+                Страны Евросоюза, а также Украина,<br> Белоруссия со всеми документами.
+              </p>
+              <a class="button" href="#!">ПОДРОБНЕЕ</a>
+            </div>
+            <img class="slider-image" src="./images/slider.png" alt="Грузовик" width="445" height="266">
+            <div class="slider__button-group">
+              <button class="slider__button slider__button-next" type="button">след</button>
+              <button class="slider__button slider__button-prev" type="button">Назад</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="services">
+        <div class="container">
+          <ul class="services__wrapper">
+            <h2 class="section__title services__title">
+              услуги
+            </h2>
+            <ul class="services__list">
+              <li class="services__item">
+                <a class="services__link" href="#!">
+                  <svg class="services__icon" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="70" height="70"  fill="#fff" viewBox="0 0 70 70"><circle cx="35" cy="35" r="35" fill="#393F47"/><g clip-path="url(#a)"><path d="m48.9 20.07-3.18 1.45c-.2.1-.4.22-.55.38l-5.18 5.18-17.81-2.14c-.32-.04-.65.07-.88.3l-.99 1c-.52.52-.36 1.4.32 1.71l12.77 5.73-3.67 3.66h-6.4c-.28 0-.55.11-.75.31l-.54.54c-.53.53-.35 1.43.33 1.72l5.4 2.32 2.32 5.4c.3.69 1.2.86 1.72.33l.54-.54c.2-.2.31-.47.31-.75v-6.4l3.67-3.67 5.72 12.77c.3.68 1.2.84 1.72.32l.99-1c.23-.22.34-.55.3-.87l-2.14-17.81 5.18-5.18c.16-.16.29-.34.38-.55l1.44-3.17a.78.78 0 0 0-1.03-1.04Z"/></g><defs><clipPath><path fill="#fff" d="M20 20h30v30H20z"/></clipPath></defs></svg>
+                  <h3 class="services__subtitle">Авиаперевозки</h3>
+                </a>
+              </li>
+              <li class="services__item">
+                <a class="services__link" href="#!">
+                  <svg class="services__icon" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="70" height="70"  fill="#fff" viewBox="0 0 70 70"><circle cx="35" cy="35" r="35" fill="#393F47"/><g clip-path="url(#a)"><path d="m48.9 20.07-3.18 1.45c-.2.1-.4.22-.55.38l-5.18 5.18-17.81-2.14c-.32-.04-.65.07-.88.3l-.99 1c-.52.52-.36 1.4.32 1.71l12.77 5.73-3.67 3.66h-6.4c-.28 0-.55.11-.75.31l-.54.54c-.53.53-.35 1.43.33 1.72l5.4 2.32 2.32 5.4c.3.69 1.2.86 1.72.33l.54-.54c.2-.2.31-.47.31-.75v-6.4l3.67-3.67 5.72 12.77c.3.68 1.2.84 1.72.32l.99-1c.23-.22.34-.55.3-.87l-2.14-17.81 5.18-5.18c.16-.16.29-.34.38-.55l1.44-3.17a.78.78 0 0 0-1.03-1.04Z"/></g><defs><clipPath><path fill="#fff" d="M20 20h30v30H20z"/></clipPath></defs></svg>
+                  <h3 class="services__subtitle">Авиаперевозки</h3>
+                </a>
+              </li>
+              <li class="services__item">
+                <a class="services__link" href="#!">
+                  <svg class="services__icon" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="70" height="70"  fill="#fff" viewBox="0 0 70 70"><circle cx="35" cy="35" r="35" fill="#393F47"/><g clip-path="url(#a)"><path d="m48.9 20.07-3.18 1.45c-.2.1-.4.22-.55.38l-5.18 5.18-17.81-2.14c-.32-.04-.65.07-.88.3l-.99 1c-.52.52-.36 1.4.32 1.71l12.77 5.73-3.67 3.66h-6.4c-.28 0-.55.11-.75.31l-.54.54c-.53.53-.35 1.43.33 1.72l5.4 2.32 2.32 5.4c.3.69 1.2.86 1.72.33l.54-.54c.2-.2.31-.47.31-.75v-6.4l3.67-3.67 5.72 12.77c.3.68 1.2.84 1.72.32l.99-1c.23-.22.34-.55.3-.87l-2.14-17.81 5.18-5.18c.16-.16.29-.34.38-.55l1.44-3.17a.78.78 0 0 0-1.03-1.04Z"/></g><defs><clipPath><path fill="#fff" d="M20 20h30v30H20z"/></clipPath></defs></svg>
+                  <h3 class="services__subtitle">Авиаперевозки</h3>
+                </a>
+              </li>
+              <li class="services__item">
+                <a class="services__link" href="#!">
+                  <svg class="services__icon" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="70" height="70"  fill="#fff" viewBox="0 0 70 70"><circle cx="35" cy="35" r="35" fill="#393F47"/><g clip-path="url(#a)"><path d="m48.9 20.07-3.18 1.45c-.2.1-.4.22-.55.38l-5.18 5.18-17.81-2.14c-.32-.04-.65.07-.88.3l-.99 1c-.52.52-.36 1.4.32 1.71l12.77 5.73-3.67 3.66h-6.4c-.28 0-.55.11-.75.31l-.54.54c-.53.53-.35 1.43.33 1.72l5.4 2.32 2.32 5.4c.3.69 1.2.86 1.72.33l.54-.54c.2-.2.31-.47.31-.75v-6.4l3.67-3.67 5.72 12.77c.3.68 1.2.84 1.72.32l.99-1c.23-.22.34-.55.3-.87l-2.14-17.81 5.18-5.18c.16-.16.29-.34.38-.55l1.44-3.17a.78.78 0 0 0-1.03-1.04Z"/></g><defs><clipPath><path fill="#fff" d="M20 20h30v30H20z"/></clipPath></defs></svg>
+                  <h3 class="services__subtitle">Авиаперевозки</h3>
+                </a>
+              </li>
+              <li class="services__item">
+                <a class="services__link" href="#!">
+                  <svg class="services__icon" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="70" height="70"  fill="#fff" viewBox="0 0 70 70"><circle cx="35" cy="35" r="35" fill="#393F47"/><g clip-path="url(#a)"><path d="m48.9 20.07-3.18 1.45c-.2.1-.4.22-.55.38l-5.18 5.18-17.81-2.14c-.32-.04-.65.07-.88.3l-.99 1c-.52.52-.36 1.4.32 1.71l12.77 5.73-3.67 3.66h-6.4c-.28 0-.55.11-.75.31l-.54.54c-.53.53-.35 1.43.33 1.72l5.4 2.32 2.32 5.4c.3.69 1.2.86 1.72.33l.54-.54c.2-.2.31-.47.31-.75v-6.4l3.67-3.67 5.72 12.77c.3.68 1.2.84 1.72.32l.99-1c.23-.22.34-.55.3-.87l-2.14-17.81 5.18-5.18c.16-.16.29-.34.38-.55l1.44-3.17a.78.78 0 0 0-1.03-1.04Z"/></g><defs><clipPath><path fill="#fff" d="M20 20h30v30H20z"/></clipPath></defs></svg>
+                  <h3 class="services__subtitle">Авиаперевозки</h3>
+                </a>
+              </li>
+              <li class="services__item">
+                <a class="services__link" href="#!">
+                  <svg class="services__icon" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="70" height="70"  fill="#fff" viewBox="0 0 70 70"><circle cx="35" cy="35" r="35" fill="#393F47"/><g clip-path="url(#a)"><path d="m48.9 20.07-3.18 1.45c-.2.1-.4.22-.55.38l-5.18 5.18-17.81-2.14c-.32-.04-.65.07-.88.3l-.99 1c-.52.52-.36 1.4.32 1.71l12.77 5.73-3.67 3.66h-6.4c-.28 0-.55.11-.75.31l-.54.54c-.53.53-.35 1.43.33 1.72l5.4 2.32 2.32 5.4c.3.69 1.2.86 1.72.33l.54-.54c.2-.2.31-.47.31-.75v-6.4l3.67-3.67 5.72 12.77c.3.68 1.2.84 1.72.32l.99-1c.23-.22.34-.55.3-.87l-2.14-17.81 5.18-5.18c.16-.16.29-.34.38-.55l1.44-3.17a.78.78 0 0 0-1.03-1.04Z"/></g><defs><clipPath><path fill="#fff" d="M20 20h30v30H20z"/></clipPath></defs></svg>
+                  <h3 class="services__subtitle">Авиаперевозки</h3>
+                </a>
+              </li>
+              <li class="services__item">
+                <a class="services__link" href="#!">
+                  <svg class="services__icon" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="70" height="70"  fill="#fff" viewBox="0 0 70 70"><circle cx="35" cy="35" r="35" fill="#393F47"/><g clip-path="url(#a)"><path d="m48.9 20.07-3.18 1.45c-.2.1-.4.22-.55.38l-5.18 5.18-17.81-2.14c-.32-.04-.65.07-.88.3l-.99 1c-.52.52-.36 1.4.32 1.71l12.77 5.73-3.67 3.66h-6.4c-.28 0-.55.11-.75.31l-.54.54c-.53.53-.35 1.43.33 1.72l5.4 2.32 2.32 5.4c.3.69 1.2.86 1.72.33l.54-.54c.2-.2.31-.47.31-.75v-6.4l3.67-3.67 5.72 12.77c.3.68 1.2.84 1.72.32l.99-1c.23-.22.34-.55.3-.87l-2.14-17.81 5.18-5.18c.16-.16.29-.34.38-.55l1.44-3.17a.78.78 0 0 0-1.03-1.04Z"/></g><defs><clipPath><path fill="#fff" d="M20 20h30v30H20z"/></clipPath></defs></svg>
+                  <h3 class="services__subtitle">Авиаперевозки</h3>
+                </a>
+              </li>
+              <li class="services__item">
+                <a class="services__link" href="#!">
+                  <svg class="services__icon" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="70" height="70"  fill="#fff" viewBox="0 0 70 70"><circle cx="35" cy="35" r="35" fill="#393F47"/><g clip-path="url(#a)"><path d="m48.9 20.07-3.18 1.45c-.2.1-.4.22-.55.38l-5.18 5.18-17.81-2.14c-.32-.04-.65.07-.88.3l-.99 1c-.52.52-.36 1.4.32 1.71l12.77 5.73-3.67 3.66h-6.4c-.28 0-.55.11-.75.31l-.54.54c-.53.53-.35 1.43.33 1.72l5.4 2.32 2.32 5.4c.3.69 1.2.86 1.72.33l.54-.54c.2-.2.31-.47.31-.75v-6.4l3.67-3.67 5.72 12.77c.3.68 1.2.84 1.72.32l.99-1c.23-.22.34-.55.3-.87l-2.14-17.81 5.18-5.18c.16-.16.29-.34.38-.55l1.44-3.17a.78.78 0 0 0-1.03-1.04Z"/></g><defs><clipPath id="a"><path fill="#fff" d="M20 20h30v30H20z"/></clipPath></defs></svg>
+                  <h3 class="services__subtitle">Авиаперевозки</h3>
+                </a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="about">
+        <div class="container">
+          <div class="about__wrapper">
+
+            <div class="about__content">
+              <h2 class="section__title about__title">
+                О компании
+              </h2>
+              <p class="about__text">
+                Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн.
+              </p>
+            </div>
+            <ul class="about__list">
+              <li class="about__item">
+                <p class="about__caption">48</p>
+                <p class="about__desc">офисов</p>
+                <p class="about__subject">В Европе и СНГ</p>
+              </li>
+              <li class="about__item">
+                <p class="about__caption">361</p>
+                <p class="about__desc">грузовиков</p>
+                <p class="about__subject">Volvo, Scania</p>
+              </li>
+              <li class="about__item">
+                <img class="about__image" src="./images/about.jpg" alt="Грузовик на дороге" width="200" height="160">
+              </li>
+              <li class="about__item">
+                <img class="about__image" src="./images/about.jpg" alt="Грузовик на дороге" width="200" height="160">
+              </li>
+              <li class="about__item">
+                <p class="about__caption">1500</p>
+                <p class="about__desc">сотрудников</p>
+                <p class="about__subject">профессионалов</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="map">
+        <h2 class="visually-hidden">Наши координаты</h2>
+        <img class="map__image" src="./images/maps.jpg" alt="Схема расположения офиса компании">
+      </section>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__wrapper">
+            <img class="footer_logo-image" src="./images/logo-footer.svg" alt="Логотип компании" width="160" height="46">
+            <address class="footer__contacts">
+              <div class="contacts__address">
+                <p class="contacts__text">
+                  123456, Санкт-Петербург, Невский пр-кт 127
+                </p>
+                <a class="contacts__email" href="mailto:sales@log.ru">sales@log.ru</a>
+              </div>
+            <div class="contacts__phones">
+              <a class="contacts__phone" href="tel:88123445665">+7 (812) 344-56-65</a>
+              <a class="contacts__phone" href="tel:88123555665">+7 (812) 355-56-65</a>
+            </div>
+            </address>
+            <p class="info">Разработано - D-E-N.ru</p>
+          </div>
+        </div>
+      </footer>
+
 		</div>
 </body>
 </html>
