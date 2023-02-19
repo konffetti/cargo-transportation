@@ -461,12 +461,12 @@ body {
   margin-right: 10px;
 }
 
-.contacts__phone {
+.footer__phone {
   display: block;
   margin-bottom: 10px;
 }
 
-.contacts__phone:last-child {
+.footer__phone:last-child {
   margin-bottom: 0;
 }
 
