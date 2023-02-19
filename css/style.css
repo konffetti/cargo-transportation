@@ -176,6 +176,7 @@ body {
 
 .office-link {
   position: relative;
+  margin-right: 10px;
   padding-left: 35px;
   font-size: 14px;
   line-height: 16px;
@@ -391,6 +392,10 @@ body {
   outline: 0.25px solid #C8A35F;
 }
 
+.about__info {
+  padding: 5px;
+}
+
 .about__caption {
   margin-bottom: 10px;
   font-weight: 700;
@@ -451,6 +456,9 @@ body {
 
 .contacts__email {
   color: #2F343A;
+}
+.contacts__phones {
+  margin-right: 10px;
 }
 
 .contacts__phone {
